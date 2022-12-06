@@ -6,7 +6,7 @@ import java.util.Collections;
 public class calories {
     public static void main(String[] args) {
         FileSystem fs = FileSystems.getDefault();
-        Path filePath = fs.getPath("C:\\Users\\argal\\Documents\\Other\\Advent of Code\\Advent of Code 1\\calories.txt");
+        Path filePath = fs.getPath("C:\\Users\\argal\\Documents\\Advent of Code\\Advent of Code 1\\calories.txt");
         InputStream input = null;
         try {
             input = Files.newInputStream(filePath);
